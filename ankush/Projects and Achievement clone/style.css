@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    background-color: #03080d;
+    align-items: center;
+    height: 8vh;
+    color: white;
+    /* border-bottom: 2px solid white; */
+}
+.nav-items ul{
+    display: flex;
+    list-style-type: none;
+    margin-right: 100px;
+}
+.nav-items ul li{
+    margin: 0 7px 0 7px;
+}
+.logo{
+    margin-left: 100px;
+    display: flex;
+}
+.logo h2{
+    font-weight: 600;
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.logo img{
+    width: 2rem;
+    margin-top: 15px;
+}
+.heading{
+    color: white;
+    position:relative;
+    top: 55px;
+    text-align: center;
+    font-size:45px;
+    font-weight: 750;
+}
+.heading p{
+    font-size: small;
+    font-weight: 200;
+    margin-top: 20px;
+}
+.hero{
+    background-color: #03080d;
+    height: 300vh;
+}
+.info-card{
+    color: white;
+    margin: 0 80px 80px 80px;
+    background-color: #111416;
+    padding: 40px 30px 40px 30px;
+    border-radius: 8px;
+}
+.info-card:hover{
+    border:1px solid #4deeea;
+}
+.info-card h2{
+margin:0 0 30px 30px;
+}
+.info-card p{
+    margin: 10px 0 10px 0;
+}
+.project-cards{
+    margin-top: 100px;
+}
+.card{
+    background-color: #111416;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    height: 45vh;
+    border-radius: 8px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.card:hover{
+    border:1px solid #4deeea;
+}
+.card-text{
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.card-img{
+    width: 200px;
+    margin-top: 20px;
+    /* position: relative;
+    top: 5px;
+    left: ; */
+}
+.achievement-cards{
+    padding: 0 80px 0 80px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer{
+    background-color: #131a21;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.robocon-logo img{
+    width: 15rem;
+}
+.footer-content{
+    color: white;
+    text-align: center;
+}
+.srm-logo img{
+    width: 15rem;
+}
+.footer-content i{
+    margin:20px 30px 20px 0; 
+}
+.footer-2{
+    background-color: #131a21;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+    height: 8vh;
+    border-top: 0.5px solid #808080;
+}
