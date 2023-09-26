@@ -53,6 +53,7 @@ nav{
     font-size:45px;
     font-weight: 750;
 }
+
 .heading p{
     font-size: small;
     font-weight: 200;
@@ -60,7 +61,7 @@ nav{
 }
 .hero{
     background-color: #03080d;
-    height: 300vh;
+    height: 263vh;
     background-image: url(images/giphy.gif);
     background-size: initial;
 }
@@ -70,7 +71,7 @@ nav{
     padding: 40px 30px 40px 30px;
     border-radius: 15px;
     background: linear-gradient(147.5deg,black,#5A5A5A);
-    transition: 0.3s all ease-in-out;
+    transition: 0.5s all ease-in-out;
 }
 .info-card p{
     display: none;
@@ -84,11 +85,13 @@ nav{
     border:2px solid #4deeea;
     transform: translate(-30px, -30px);
     background: linear-gradient(32.5deg,#5A5A5A,black);
-    transition: 0.3s all ease-in-out;
+    transition: 0.5s all ease-in-out;
+
 }
 .info-card h2{
 text-align: center;
 font-size: 40px;
+cursor: default;
 }
 .info-card p{
     margin: 10px 0 10px 0;
@@ -104,10 +107,15 @@ font-size: 40px;
     height: 45vh;
     border-radius: 8px;
     margin-right: 40px;
-    margin-top: 20px;
+    margin-top: 40px;
+    transition: 0.4s all ease-in-out;
+    padding: 0 2px 0 2px;
 }
 .card:hover{
-    border:1px solid #4deeea;
+    border: 2px solid #4deeea;
+    transform: translate(-20px, -20px);
+    transition: 0.4s all ease-in-out;
+    cursor: default;
 }
 .card-text{
     color: white;
@@ -123,6 +131,7 @@ font-size: 40px;
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
+
 }
 footer{
     background-color: #131a21;
